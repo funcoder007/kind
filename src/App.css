@@ -1,0 +1,545 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.footer
+{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:50px;
+  background-color: lightgreen;
+  text-align: center;
+  color: black; 
+}
+.lenstext
+{
+  position:static;
+  text-align: center;
+  text-align: center;
+  color: white;
+  font-weight : bold;
+  font-size: 45px;
+}
+
+#form
+{
+   background-color:white;
+   border-color:rgb(0, 35, 102);
+   height: 460px;
+  border-width: 3px;
+   margin-top: 60px;
+   color: rgb(0, 35, 102);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+/*For Name , Email , About*/
+.label
+{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 3px;
+  font-weight:bolder;
+}
+
+/*For Save and Delete Button*/
+.btns
+{
+  margin-left: 30%;
+}
+
+/*For Save Button*/
+#buttonsave {
+ 
+  align-items: center;
+  font-size: 20px;
+  width: 101px;
+  height:55px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#buttonsave:hover {
+   background-color: White;
+  color: green;
+}
+
+/*For Delete Button*/
+#buttondelete{
+    align-items: center;
+    width: 101px;
+    height:55px;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#buttondelete:hover {
+  background-color: White;
+ color: green;
+}
+.container-fluid
+{
+  margin-left: -90px;
+  margin-top: 30px;
+  background-color:aquamarine;
+  width: 100%;
+  border-radius: 39px;
+}
+/**/
+
+.test
+{
+  background-color: #61dafb;
+  margin-top: 10px;
+  height:300px;
+  display:inline-flex;
+  width: 100%;
+  
+}
+.test-img
+{
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  
+}
+.OurPartners
+{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 393px;
+  font-size: 73px;
+  color:greenyellow;
+  font-weight : bold;
+  font-family: 'Italianno', cursive;
+  
+}
+.NewPartner
+{
+ padding-top: 90px;
+  margin-bottom: 40px;
+  margin-left: 393px;
+  font-size: 73px;
+  color:greenyellow;
+  font-weight : bold;
+  font-family: 'Italianno', cursive;
+}
+
+.text1
+{
+ margin-left: 414px;
+ font-size: 33px;
+ font-family: 'Italianno', cursive;
+ align-self: center;
+ 
+}
+
+.test2
+{
+  background-color: #61dafb;
+  margin-top: 10px;
+  height:300px;
+  display:inline-flex;
+  width: 100%;
+  
+}
+.text2
+{
+  font-size: 33px;
+ font-family: 'Italianno', cursive;
+ width: 208px;
+ background-color: white;
+ 
+}
+.text3
+{
+ font-size: 33px;
+margin-left: 240px;
+ font-family: 'Italianno', cursive;
+ width: 208px;
+ padding-left: 23px;
+ background-color: white;
+ 
+}
+.text4
+{
+  font-size: 33px;
+margin-left: 240px;
+ font-family: 'Italianno', cursive;
+ width: 208px;
+ padding-left: 23px;
+ background-color: white;
+ 
+}
+
+
+#container {
+  width:100%;
+    
+  }
+  #one,#two,#three,#four,#five{
+  width:20%;
+  height:50%;
+  }
+  .onet
+  {
+    height: 90px;
+    border-radius: 23px;
+    background-color: palegreen;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .one {
+ border-left: -23px;
+  background-color:blue;
+  display:inline-flex;
+  overflow: hidden;
+  border-radius: 23px;
+  }
+  .one img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+  
+  #card-one
+  {
+    max-width: 85rem;
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+   
+  }
+  .two {
+  background-color:green;
+ 
+  width:250px;
+  height:250px;
+  }
+  .two-img
+  {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .test3
+  {
+    margin-left: 150px;
+    font-size: 33px;
+    background-color: white;
+    align-self: center;
+   
+    font-family: 'Italianno', cursive;
+  }
+/**/
+.Stores
+{
+  
+  margin-bottom: 70px;
+  margin-left: 297px;
+  font-size: 73px;
+  color:greenyellow;
+  font-weight : bold;
+  font-family: 'Italianno', cursive;
+  
+}
+.Stores1
+{
+  margin-top: 159px;
+ 
+  margin-left: 370px;
+  font-size: 100px;
+  color:rgb(0, 35, 102);
+  font-weight : bold;
+  font-family: 'Italianno', cursive;
+  
+}
+.addcategory
+{
+background-color: aquamarine;
+margin-top: 30px;
+margin-left: -5% ;
+}
+.test4
+{
+  background-color: #61dafb;
+  margin-top: 10px;
+  height:300px;
+  display:inline-flex;
+  width: 100%;
+  
+}
+.test5
+{
+  background-color: #61dafb;
+  margin-top: 10px;
+  height:300px;
+  display:inline-flex;
+  width: 100%;
+  margin-left: -14px ;
+  
+}
+
+.addcategorytable {
+  border:3px solid white;
+  border-collapse:collapse;
+  padding:15px;
+  margin-left: 297px;
+  margin-top: 30px;
+  margin-bottom:30px
+}
+.addcategorytable th {
+  border:1px solid white;
+  padding:30px;
+  background:  rgb(0, 35, 102);
+  color: white;
+ 
+}
+.addcategorytable td {
+  border:3px solid white;
+  text-align:center;
+  padding:11px;
+  background: #ffffff;
+  color: #303031;
+}
+.categories
+{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 393px;
+  font-size: 73px;
+  color:orange;
+  font-weight : bold;
+  font-family: 'Italianno', cursive;
+  
+}
+#formcategory
+{
+  background-color:white;
+  border-color:rgb(0, 35, 102);
+  height: 400px;
+ border-width: 3px;
+  margin-top: 60px;
+  color: rgb(0, 35, 102);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 30px;
+}
+.label2
+{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 3px;
+  font-weight:bolder;
+}
+
+/*For Save and Delete Button*/
+.btns2
+{
+  margin-left: 30%;
+}
+
+/*For Save Button*/
+#buttonsave2 {
+ 
+  align-items: center;
+  font-size: 20px;
+  width: 101px;
+  height:55px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#buttonsave2:hover {
+   background-color: White;
+  color: green;
+}
+
+/*For Delete Button*/
+#buttondelete2{
+    align-items: center;
+    width: 101px;
+    height:55px;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+#buttondelete2:hover {
+  background-color: White;
+ color: green;
+}
+.tablecategorylist {
+  width: 94%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  /* border-width: 1px; */
+  border-color: white;
+  border-style: solid;
+  color: #000000;
+  align-content: center;
+}
+
+.tablecategorylist td, .tablecategorylist th {
+
+
+  padding: 56px;
+ 
+}
+
+.tablecategorylist td {
+  /* background-color: #B7F886; */
+}
+.label3
+{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 3px;
+  font-weight:bolder;
+  
+}
+.havana1
+{
+  margin-left: 9px;
+ margin-bottom: 30px;;
+}
+.havana2
+{
+  margin-left: -118px;
+ margin-bottom: 30px;;
+}
+#allcategories
+{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 18px;
+  font-size: 73px;
+  color:orange;
+  font-weight : bold;
+  font-family: 'Italianno', cursive;
+}
+.updatecategory
+{
+  margin-left: 133px;
+}
+.updateimage
+{
+margin-left: -128px;
+}
+.divinimage
+{
+  height: 333px;
+
+ position: absolute;
+ margin-top: 200px;
+margin-left: 0px;
+ color: Black;
+ padding: 4px;
+ font-size: 17px;
+ line-height: 18px;
+ width: 800px;
+}
+#formupdatecategory
+{
+  margin-left: 354px;
+  width: 900px;
+  background-color:white;
+   border-color:rgb(0, 35, 102);
+   height: 460px;
+  border-width: 3px;
+   margin-top: 60px;
+   color: rgb(0, 35, 102);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.lable5
+{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 3px;
+  font-weight:bolder;
+}
+#formupdateposts
+{
+  margin-left: 210px;
+  width: 900px;
+  background-color:white;
+   border-color:rgb(0, 35, 102);
+   height: 460px;
+  border-width: 3px;
+   margin-top: 60px;
+   color: rgb(0, 35, 102);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.updateimage
+{
+display: inline-flex;
+margin-top:30px;
+background-color: #000000;
+}  
+.updateimage2
+{
+display: inline-flex;
+
+margin-left: 180px;
+}  
+.tablepostbyuser
+{
+  width: 94%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  /* border-width: 1px; */
+  border-color: white;
+  border-style: solid;
+  color: #000000;
+  align-content: center;
+}
+.tablepostbyuser td, .tablepostbyuser th {
+
+
+  padding: 24px;
+ 
+}
+.row2
+{
+  display: flex;
+  
+}
+.button11 .button12  .button13
+{
+  padding-right: 23px;
+}
+ #updateuser
+{
+margin-top: 30px;
+}
